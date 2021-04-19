@@ -1,0 +1,150 @@
+{
+    "status": true,
+    "data": {
+        "products": [{
+                "id": 0,
+                "sold": false,
+                "name": "Stretch Knit Wool Dress",
+                "category": "DRESSES",
+                "image": "../images/dress.png",
+                "alt": "dress",
+                "price": "£299.00",
+                "oldPrice": "£669.00",
+                "popular": true,
+                "tag": "evDresses"
+            },
+            {
+                "id": 1,
+                "sold": false,
+                "name": "Cotton Blue Shirt",
+                "category": "SHIRTS",
+                "image": "../images/shirt.png",
+                "alt": "shirt",
+                "price": "£209.00",
+                "oldPrice": "",
+                "popular": true,
+                "tag": "crystal"
+            },
+            {
+                "id": 2,
+                "sold": true,
+                "name": "Cotton Blue Shirt",
+                "category": "SHIRTS",
+                "image": "../images/shirt.png",
+                "alt": "shirt",
+                "price": "£459.00",
+                "oldPrice": "",
+                "popular": true,
+                "tag": "dayDresses"
+            },
+            {
+                "id": 3,
+                "sold": false,
+                "name": "Striped Stretch Dress",
+                "category": "DRESSES",
+                "image": "../images/sundress.png",
+                "alt": "sundress",
+                "price": "£479.00",
+                "oldPrice": "",
+                "popular": true,
+                "tag": "crystal"
+            },
+            {
+                "id": 4,
+                "sold": false,
+                "name": "Green Village T-Shirt",
+                "category": "t-shirts",
+                "image": "../images/yellow-tshirt.png",
+                "alt": "yellow-tshirt",
+                "price": "£109.00",
+                "oldPrice": "",
+                "popular": true,
+                "tag": "exclusives"
+            },
+            {
+                "id": 5,
+                "sold": false,
+                "name": "Blue Hipster Backpack",
+                "category": "bags",
+                "image": "../images/backpack.png",
+                "alt": "backpack",
+                "price": "£309.00",
+                "oldPrice": "",
+                "popular": true,
+                "tag": "exclusives"
+            },
+            {
+                "id": 6,
+                "sold": false,
+                "name": "Stretch Wool Dress",
+                "category": "DRESSES",
+                "image": "../images/pink-dress.png",
+                "alt": "pink-dress",
+                "price": "£229.00",
+                "oldPrice": "£799.00",
+                "popular": true,
+                "tag": "dayDresses"
+            },
+            {
+                "id": 7,
+                "sold": false,
+                "name": "Blue Sexual Dress",
+                "category": "DRESSES",
+                "image": "../images/blue-dress.png",
+                "alt": "blue-dress",
+                "price": "£329.00",
+                "oldPrice": "",
+                "popular": true,
+                "tag": "evDresses"
+            },
+            {
+                "id": 8,
+                "sold": false,
+                "name": "Emmett Cable T-Shirt",
+                "category": "T-SHIRTS",
+                "image": "../images/tshirt.png",
+                "alt": "tshirt",
+                "price": "£139.00",
+                "oldPrice": "",
+                "popular": false,
+                "tag": "crystal"
+            },
+            {
+                "id": 9,
+                "sold": false,
+                "name": "Stretch Knit Wool Dress",
+                "category": "DRESSES",
+                "image": "../images/dress.png",
+                "alt": "dress",
+                "price": "£669.00",
+                "oldPrice": "£299.00",
+                "popular": false,
+                "tag": "evDresses"
+            },
+            {
+                "id": 10,
+                "sold": false,
+                "name": "Striped Stretch Dress",
+                "category": "DRESSES",
+                "image": "../images/green-dress.png",
+                "alt": "green-dress",
+                "price": "£479.00",
+                "oldPrice": "",
+                "popular": false,
+                "tag": "dayDresses"
+            },
+            {
+                "id": 11,
+                "sold": false,
+                "name": "Green Village T-Shirt",
+                "category": "T-SHIRTS",
+                "image": "../images/shorts.png",
+                "alt": "shorts",
+                "price": "£109.00",
+                "oldPrice": "",
+                "popular": false,
+                "tag": "crystal"
+            }
+        ]
+    }
+}

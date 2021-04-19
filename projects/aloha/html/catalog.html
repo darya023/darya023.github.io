@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <title>Aloha</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top flex-wrapper">
+          <div class="header__left">
+            <div class="header__logo"><a class="logo" href="/"><img class="logo__img" src="../images/logo.svg" alt="Aloha"/></a></div>
+          </div>
+          <div class="header__middle">
+            <nav class="menu flex-wrapper js-menu">
+              <div class="menu__content hidden-sm"><a class="menu__link section__link" href="catalog.html">Men</a><a class="menu__link section__link" href="catalog.html">Women</a><a class="menu__link section__link" href="catalog.html">Bags</a><a class="menu__link section__link" href="catalog.html">Home</a><a class="menu__link section__link" href="catalog.html">Sale</a></div>
+            </nav>
+          </div>
+          <div class="header__right">
+            <div class="header__icons flex-wrapper js-icons-container">
+              <div class="header__icon"><a class="cart icon icon_style_round icon_figure_cart" href="#">
+                  <div class="cart__count">2</div></a></div>
+              <div class="header__icon hidden-lg">
+                <div class="menu-icon icon icon_style_round js-menu-icon">
+                  <div class="menu-icon__item"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section section_paddings_xs section_border_top">
+        <div class="section__title section__bold-text">Women</div>
+        <div class="container">
+          <div class="catalog">
+            <div class="catalog__top">
+              <div class="catalog__checkbox hidden-sm hidden-md">
+                <div class="flex-wrapper justify-content-center">
+                  <div class="check-button">
+                    <label class="check-button__label"> 
+                      <input class="check-button__input js-check" type="radio" name="tag" value="all" checked="checked"/><span class="check-button__text section__bold-text">View All</span>
+                    </label>
+                  </div>
+                  <div class="check-button">
+                    <label class="check-button__label"> 
+                      <input class="check-button__input js-check" type="radio" name="tag" value="evDresses"/><span class="check-button__text section__bold-text">Evening Dresses</span>
+                    </label>
+                  </div>
+                  <div class="check-button">
+                    <label class="check-button__label"> 
+                      <input class="check-button__input js-check" type="radio" name="tag" value="crystal"/><span class="check-button__text section__bold-text">The Crystal Collection</span>
+                    </label>
+                  </div>
+                  <div class="check-button">
+                    <label class="check-button__label"> 
+                      <input class="check-button__input js-check" type="radio" name="tag" value="dayDresses"/><span class="check-button__text section__bold-text">Day Dresses</span>
+                    </label>
+                  </div>
+                  <div class="check-button">
+                    <label class="check-button__label"> 
+                      <input class="check-button__input js-check" type="radio" name="tag" value="exclusives"/><span class="check-button__text section__bold-text">Online Exclusives</span>
+                    </label>
+                  </div>
+                  <div class="check-button">
+                    <label class="check-button__label"> 
+                      <input class="check-button__input js-check" type="radio" name="tag" value="sale"/><span class="check-button__text section__bold-text">Sale</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog__select hidden-lg">               
+                <select class="js-select">
+                  <option value="all">View All</option>
+                  <option value="evDresses" selected="selected">Evening Dresses</option>
+                  <option value="crystal">The Crystal Collection</option>
+                  <option value="dayDresses">Day Dresses</option>
+                  <option value="exclusives">Online Exclusives</option>
+                  <option value="sale">Sale</option>
+                </select>
+              </div>
+            </div>
+            <div class="catalog__middle">
+              <div class="catalog__products">
+                <div class="container">
+                  <div class="row js-products-container" data-show-sm="4" data-show-md="9" data-show-lg="12"></div>
+                </div>
+                <div class="catalog__btn">
+                  <button class="btn btn_color_black hidden-lg js-btn">Show more</button>
+                </div>
+              </div>
+            </div>
+            <div class="catalog__bottom">
+              <div class="catalog__count">Showing items 1-<span class="js-showing">12</span> of <span class="js-all">12</span>.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container-fluid">
+      <div class="footer__container">
+        <div class="container">
+          <div class="row flex-wrapper align-items-start">
+            <div class="footer__left col-lg-3 col-md-4 col-sm-12">
+              <div class="footer__item">
+                <div class="footer__copyright">© 2015, Aloha Theme. </br> Powered by <a class="section__underline section__underline_level_one section__link" href="#">ThemeForest</a> & <a class="section__underline section__underline_level_one section__link" href="#">PixelBuddha</a>.</div>
+              </div>
+              <div class="footer__item">
+                <div class="footer__contacts"> <a class="section__link" href="tel:438-793-2227">438-793-2227</a>, <a class="section__link section__underline section__underline_level_one" href="mailto:info@boxtheme.com">info@boxtheme.com</a></div>
+              </div>
+              <div class="footer__item">
+                <div class="footer__adress">USA, San Francisco  </br> 1575 De l’Avenir Blvd, Suite 2, Laval (QC), H7S</div>
+              </div>
+            </div>
+            <!--.footer__sources.flex-wrapper.col-lg-4-->
+            <div class="footer__middle footer__col footer__products col-lg-2 col-md-2 col-sm-6"><a class="footer__link section__link" href="#">Women</a><a class="footer__link section__link" href="#">Men</a><a class="footer__link section__link" href="#">Bags</a><a class="footer__link section__link" href="#">Home</a><a class="footer__link section__link" href="#">Sale</a></div>
+            <div class="footer__col footer__pages col-lg-2 col-md-2 col-sm-6"><a class="footer__link section__link" href="#">Shipping rates</a><a class="footer__link section__link" href="#">Return policy</a><a class="footer__link section__link" href="#">About Us</a><a class="footer__link section__link" href="#">Contact Us</a><a class="footer__link section__link" href="#">Our Blog</a></div>
+            <!--.footer__right-->
+            <div class="footer__col footer__soc-medias col-lg-2 col-md-2 col-sm-12"><a class="footer__link section__link footer__link_theme_inline" href="#"> <span class="icon icon_size_s icon_figure_fb"> </span><span class="hidden-sm">Facebook</span></a><a class="footer__link section__link footer__link_theme_inline" href="#"> <span class="icon icon_size_s icon_figure_twitter"> </span><span class="hidden-sm">Twitter</span></a><a class="footer__link section__link footer__link_theme_inline" href="#"> <span class="icon icon_size_s icon_figure_instagram"> </span><span class="hidden-sm">Instagram</span></a><a class="footer__link section__link footer__link_theme_inline" href="#"> <span class="icon icon_size_s icon_figure_pinterest"> </span><span class="hidden-sm">Pinterest</span></a><a class="footer__link section__link footer__link_theme_inline" href="#"> <span class="icon icon_size_s icon_figure_google"> </span><span class="hidden-sm">Google+</span></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/bundle.js"></script>
+  </body>
+</html>

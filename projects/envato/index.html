@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <link rel="stylesheet" href="css/style.css?undefined"/>
+  <title>Envato</title>
+</head>
+<body class="body">
+  <div class="wrapper">
+    <header class="header"> 
+      <div class="container container_center">
+        <div class="header__box">       
+          <div class="header__left"><a class="logo" href="/"><img class="section__img" src="img/logo.png" alt="logo"/></a></div>
+          <div class="header__right">
+            <nav>
+              <ul class="nav list">
+                <li class="nav__item"><a href="#event">Event Details</a></li>
+                <li class="nav__item"><a href="#speakers">Speakers</a></li>
+                <li class="nav__item"><a href="#sponsors">Sponsors</a></li>
+                <li class="nav__item"><a href="#pastEvents">Past Events</a></li>
+                <li class="nav__item"><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main"> 
+      <section class="section section_timer section_triangleAfter">
+        <div class="container container_center">
+          <div class="timer">
+            <div class="timer__top" id="js_timer">
+              <div class="timer__deadlineMessage">Time is up!</div>
+              <div class="timer__clock">
+                <div class="timer__item">
+                  <div class="timer__num js_days"></div>
+                  <div class="timer__text">Days</div>
+                </div>
+                <div class="timer__item">
+                  <div class="timer__num js_hours"></div>
+                  <div class="timer__text">Hours</div>
+                </div>
+                <div class="timer__item">
+                  <div class="timer__num js_minutes"></div>
+                  <div class="timer__text">Minutes</div>
+                </div>
+                <div class="timer__item">
+                  <div class="timer__num js_seconds"></div>
+                  <div class="timer__text">Seconds</div>
+                </div>
+              </div>
+            </div>
+            <div class="timer__bottom">
+              <div class="timer__img"><img class="section__img" src="img/timerImg.png" alt=""/></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container container_center">
+          <div class="welcome">
+            <div class="welcome__left">
+              <div class="section__title">Welcome!</div>
+              <div class="section__text"> 
+                <p class="section__p">The biggest envato community meetup in Bangladesh is happening right now! And you can be a part of it too...</p>
+                <p class="section__p">Get together with members of the Envato community to talk shop, trade war stories, make new friends and see the faces behind the avatars. Whether you’re an author on Envato Market, a client on Envato Studio, or a learner on Tuts+, you are invited!</p>
+                <p class="section__p">It doesn’t matter as long as you have the motivation and interest to work at the envato and bring cookies to our event. Just kidding, but we don’t mind having more cookies! ;) Head over and fill up the sign up form here so that we can keep track of our guests. Don’t forget to register on our <a class="welcome__span" href="#nvite">nvite</a> page here too!</p>
+              </div>
+            </div>
+            <div class="welcome__right">
+              <form class="form" action="send.php" method="POST" id="nvite">
+                <div class="form__title">Sign up for our event</div>
+                <div class="form__fields">
+                  <div class="form__item">
+                    <input class="form__input js_input" id="name" type="text" name="name" required="required"/>
+                    <label class="form__label" for="name">Enter your name</label>
+                  </div>
+                  <div class="form__item">
+                    <input class="form__input js_input" id="email" type="text" name="email" required="required"/>
+                    <label class="form__label" for="email">Enter your email</label>
+                  </div>
+                  <div class="form__item">
+                    <input class="form__input js_input" id="tel" type="tel" name="tel" required="required"/>
+                    <label class="form__label" for="tel">Phone number</label>
+                  </div>
+                  <div class="form__item">
+                    <input class="form__input js_input" id="username" type="text" name="username" required="required"/>
+                    <label class="form__label" for="username">Envato Username</label>
+                  </div>
+                  <div class="form__warning"></div>
+                </div>
+                <div class="form__btn">
+                  <button class="btn js_submit" type="button">Let me in!</button>
+                </div>
+                <div class="form__text">Hurry up, Limited seats availble *we will never spam your email</div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container container_center">
+          <div class="schedule" id="event">
+            <div class="schedule__top">
+              <div class="schedule__item">
+                <div class="schedule__img"><img class="section__img" src="img/community.png" alt="community"/></div>
+                <div class="schedule__title">Community</div>
+                <div class="schedule__text">Meet the Community you’ve always talked with, in real life! This meetup will be all about authors engaging each other with interesting coversation and topics. We will have loads of fun.</div>
+              </div>
+              <div class="schedule__item">
+                <div class="schedule__img"><img class="section__img" src="img/talkShop.png" alt="talkShop"/></div>
+                <div class="schedule__title">Talk Shop</div>
+                <div class="schedule__text">In this meetup you will get to know the marketplaces better, because that’s why were all here for right? Learn a few tips and tricks from experienced authors from all over the country.</div>
+              </div>
+              <div class="schedule__item"> 
+                <div class="schedule__img"><img class="section__img" src="img/warStories.png" alt="warStories"/></div>
+                <div class="schedule__title">War Stories</div>
+                <div class="schedule__text">Gather round fellow authors! Hear the stories of success from your favorite authors and learn how they we able to tackle their problems and become successful.</div>
+              </div>
+            </div>
+            <div class="schedule__bottom">
+              <table class="table">
+                <tr class="table__titleRow">
+                  <th class="table__title">Time</th>
+                  <th class="table__title">Stuff that will happen</th>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__col">10am - 12pm</td>
+                  <td class="table__col" data-tabs="about">Introduction and presentations about Envato
+                    <div class="pane" data-pane="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo numquam praesentium, non repudiandae unde inventore saepe a eos, ea recusandae minus nihil. Atque molestiae, deserunt culpa eveniet inventore sit mollitia expedita, sequi veritatis provident reiciendis ipsa eligendi. Magni beatae repellendus eveniet, quasi accusantium et. Laboriosam optio dolores itaque, vel libero!</div>
+                    <div class="table__item">
+                      <div class="table__roundBox">
+                        <div class="table__span"></div>
+                        <div class="table__span"></div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__col">12pm - 02pm</td>
+                  <td class="table__col" data-tabs="participants">Sessions by honorable guests and Speakers
+                    <div class="pane" data-pane="participants">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptate rerum alias, dignissimos mollitia assumenda voluptates dolorum repudiandae illo, repellendus quidem iusto corrupti veritatis. Aliquam porro ullam blanditiis sit dicta nisi odio itaque iure, explicabo fuga quidem quaerat sequi distinctio, esse nulla facere? Quae at voluptatibus optio nemo, dolorem cupiditate delectus temporibus dolorum doloremque nam exercitationem officiis, dolores, recusandae perspiciatis, corporis. Nesciunt totam culpa eveniet, quidem illo! Perspiciatis aliquam fugiat voluptates quae quod maiores quam hic, voluptate rerum at sint error cum cumque eveniet officiis deleniti nulla temporibus. Velit architecto, recusandae perferendis quam sapiente dolore sit deleniti molestiae quas doloremque.</div>
+                    <div class="table__item">
+                      <div class="table__roundBox">
+                        <div class="table__span"></div>
+                        <div class="table__span"></div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__col">02pm - 03pm</td>
+                  <td class="table__col" data-tabs="break">Break and Mingle time with the authors
+                    <div class="pane" data-pane="break">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo numquam praesentium, non repudiandae unde inventore saepe a eos, ea recusandae minus nihil. Atque molestiae, deserunt culpa eveniet inventore sit mollitia expedita, sequi veritatis provident reiciendis ipsa eligendi. Magni beatae repellendus eveniet, quasi accusantium et. Laboriosam optio dolores itaque, vel libero!</div>
+                    <div class="table__item">
+                      <div class="table__roundBox">
+                        <div class="table__span"></div>
+                        <div class="table__span"></div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__col">03pm - 05pm</td>
+                  <td class="table__col" data-tabs="ending">Portfolio Review, Rewards and Ending Presentation
+                    <div class="pane" data-pane="ending">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore asperiores delectus labore fugiat accusamus odio mollitia ex, deserunt aspernatur fuga!</div>
+                    <div class="table__item">
+                      <div class="table__roundBox">
+                        <div class="table__span"></div>
+                        <div class="table__span"></div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              <div class="section__text">Please keep in mind that the timings may differ according to the flow of the event. The even is actually day long and we do plan to finish it within our set time but it doesn’t have to be, if we all agree to hangour for some time more, what harm could it do? :)</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section_dark section_triangleBefore section_triangleAfter">
+        <div class="container container_center">
+          <div class="elite">
+            <div class="section__title section__whiteText">We reward the Elites!</div>
+            <div class="section__text section__whiteText"> 
+              <p class="section__p">Are you an Elite author in the Envato Marketplaces? If so we are proud of you! We want to give our thanks in achieving great success in the marketplace and we want to make known to the people of our country that you are amazing! Our Elite gifting program includes giving you special merchandize from our community and also promote your works in our community.</p>
+              <p class="section__p">All you have to do is contact us by clicking the button here and then its just going to the event, saying something motivational and taking that swag while looking amazing infront of thousands of other community members.</p>
+              <p class="section__p">*Be advised, we will only give you Elite thank you swag for each level of elite you cross.</p>
+              <p class="section__p">That means if you do not cross to the next elite level before the next event, you cannot claim your prizes.</p>
+            </div>
+            <div class="elite__btn">
+              <button class="btn btn_small" type="button">Bring on the swag!</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container container_center container_small">
+          <div class="speakers" id="speakers">
+            <div class="speakers__top">
+              <div class="section__title">Speakers</div>
+              <div class="section__text">Meet our Valuable speakers who will be each giving 10 minutes sessions on different subjects regarding being a digital product author, working at envato and marketing your business. Hope you will have a great time listening to our presentations!</div>
+            </div>
+            <div class="speakers__bottom">
+              <div class="grid">
+                <div class="grid__box">
+                  <div class="grid__col">
+                    <div class="grid__item">
+                      <div class="grid__img"><img class="section__img" src="img/face1.png" alt=""/></div>
+                      <div class="grid__descr">
+                        <div class="grid__title">Shahriyer Shuvo</div>
+                        <div class="grid__text">More about selling in the Envato Marketplaces</div>
+                        <div class="grid__links">
+                          <div class="socialMedia">
+                            <div class="socialMedia__item"><a class="icon icon_facebook" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_twitter" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_behance" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_dribbble" href="#"></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__col">
+                    <div class="grid__item">
+                      <div class="grid__img"><img class="section__img" src="img/face2.png" alt=""/></div>
+                      <div class="grid__descr">
+                        <div class="grid__title">Shahriyer Shuvo</div>
+                        <div class="grid__text">More about selling in the Envato Marketplaces</div>
+                        <div class="grid__links">
+                          <div class="socialMedia">
+                            <div class="socialMedia__item"><a class="icon icon_facebook" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_twitter" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_behance" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_dribbble" href="#"></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__col">
+                    <div class="grid__item">
+                      <div class="grid__img"><img class="section__img" src="img/face3.png" alt=""/></div>
+                      <div class="grid__descr">
+                        <div class="grid__title">Shahriyer Shuvo</div>
+                        <div class="grid__text">More about selling in the Envato Marketplaces</div>
+                        <div class="grid__links">
+                          <div class="socialMedia">
+                            <div class="socialMedia__item"><a class="icon icon_facebook" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_twitter" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_behance" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_dribbble" href="#"></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__col">
+                    <div class="grid__item">
+                      <div class="grid__img"><img class="section__img" src="img/face4.png" alt=""/></div>
+                      <div class="grid__descr">
+                        <div class="grid__title">Shahriyer Shuvo</div>
+                        <div class="grid__text">More about selling in the Envato Marketplaces</div>
+                        <div class="grid__links">
+                          <div class="socialMedia">
+                            <div class="socialMedia__item"><a class="icon icon_facebook" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_twitter" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_behance" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_dribbble" href="#"></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__col grid__transparent">
+                    <div class="grid__item">
+                      <div class="grid__img"><img class="section__img" src="img/ok.png" alt=""/></div>
+                    </div>
+                  </div>
+                  <div class="grid__col">
+                    <div class="grid__item">
+                      <div class="grid__img"><img class="section__img" src="img/face5.png" alt=""/></div>
+                      <div class="grid__descr">
+                        <div class="grid__title">Shahriyer Shuvo</div>
+                        <div class="grid__text">More about selling in the Envato Marketplaces</div>
+                        <div class="grid__links">
+                          <div class="socialMedia">
+                            <div class="socialMedia__item"><a class="icon icon_facebook" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_twitter" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_behance" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_dribbble" href="#"></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__col">
+                    <div class="grid__item">
+                      <div class="grid__img"><img class="section__img" src="img/face6.png" alt=""/></div>
+                      <div class="grid__descr">
+                        <div class="grid__title">Shahriyer Shuvo</div>
+                        <div class="grid__text">More about selling in the Envato Marketplaces</div>
+                        <div class="grid__links">
+                          <div class="socialMedia">
+                            <div class="socialMedia__item"><a class="icon icon_facebook" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_twitter" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_behance" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_dribbble" href="#"></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__col">
+                    <div class="grid__item">
+                      <div class="grid__img"><img class="section__img" src="img/face7.png" alt=""/></div>
+                      <div class="grid__descr">
+                        <div class="grid__title">Shahriyer Shuvo</div>
+                        <div class="grid__text">More about selling in the Envato Marketplaces</div>
+                        <div class="grid__links">
+                          <div class="socialMedia">
+                            <div class="socialMedia__item"><a class="icon icon_facebook" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_twitter" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_behance" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_dribbble" href="#"></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__col">
+                    <div class="grid__item">
+                      <div class="grid__img"><img class="section__img" src="img/face8.png" alt=""/></div>
+                      <div class="grid__descr">
+                        <div class="grid__title">Shahriyer Shuvo</div>
+                        <div class="grid__text">More about selling in the Envato Marketplaces</div>
+                        <div class="grid__links">
+                          <div class="socialMedia">
+                            <div class="socialMedia__item"><a class="icon icon_facebook" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_twitter" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_behance" href="#"></a></div>
+                            <div class="socialMedia__item"><a class="icon icon_dribbble" href="#"></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section_dark section_triangleBefore section_triangleAfter">
+        <div class="container container_center">
+          <div class="sponsors" id="sponsors">
+            <div class="section__title section__whiteText">Sponsor Our Event!</div>
+            <div class="section__text section__whiteText">If you want to help us making this event lively and successful, help us by sponsoring our event! This will help us bring in more people, have better livestreaming equipment, maybe even our own chef! You can also sponsor us by giving away free swag at the event!</div>
+            <div class="sponsors__text section__text section__whiteText">Here’s who have sponsored us already:</div>
+            <div class="sponsors__logos">
+              <div class="sponsors__item"><img class="section__img" src="img/mountain.png" alt=""/></div>
+              <div class="sponsors__item"><img class="section__img section__img_thin" src="img/S.png" alt=""/></div>
+              <div class="sponsors__item"><img class="section__img" src="img/logo_s.png" alt=""/></div>
+            </div>
+            <div class="sponsors__btn">
+              <button class="btn btn_small" type="button">Sponsor Us</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container container_center container_big">
+          <div class="pastEvents" id="pastEvents">
+            <div class="section__title">Past Events</div>
+            <div class="section__text">Check out the photos of our previous events where we rocked with a lot of Famous and enthusiatic authors! We’re always planning to make our future events feel fresh and fun to be at. :)</div>
+            <div class="gridEvents">
+              <div class="gridEvents__row">
+                <div class="gridEvents__first">
+                </div>
+                <div class="gridEvents__second">
+                </div>
+              </div>
+              <div class="gridEvents__row">
+                <div class="gridEvents__third">
+                </div>
+                <div class="gridEvents__fourth">
+                </div>
+              </div>
+              <div class="gridEvents__row hidden">
+                <div class="gridEvents__first">
+                </div>
+                <div class="gridEvents__second">
+                </div>
+              </div>
+              <div class="gridEvents__row hidden">
+                <div class="gridEvents__third">
+                </div>
+                <div class="gridEvents__fourth">
+                </div>
+              </div>
+            </div>
+            <div class="pastEvents__btn">
+              <button class="btn btn_small btn_dark js_viewMore" type="button">View More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section_map" id="contact">
+        <div class="map" id="map"></div>
+        <div class="messageForm">
+          <div class="container container_center container_small">
+            <div class="messageForm__box visible">
+              <div class="messageForm__left">
+                <div class="messageForm__address">
+                  <div class="messageForm__img"><img class="section__img" src="img/label.png" alt=""/></div>
+                  <div class="messageForm__text">Lorem Ipsum Avenue, 420/2 elm street, Melbourne, Sydney - 2122, Kingdom of Australia</div>
+                  <div class="messageForm__btn">
+                    <button class="btn btn_small js_viewMap" type="button">View Map</button>
+                  </div>
+                </div>
+              </div>
+              <div class="messageForm__right">
+                <div class="form form_message" action="send.php" method="POST">
+                  <div class="form__fields">
+                    <div class="form__item">
+                      <input class="form__input js_input" id="messageEmail" type="text" name="messageEmail" required="required"/>
+                      <label class="form__label" for="messageEmail">Enter your email</label>
+                    </div>
+                    <div class="form__item">
+                      <textarea class="form__input form__textarea js_input" id="messageText" name="messageText" required="required"></textarea>
+                      <label class="form__label" for="messageText">Type your message</label>
+                    </div>
+                    <div class="form__warning"></div>
+                  </div>
+                  <div class="form__btn">
+                    <button class="btn btn_dark js_submit" type="button">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="messageForm__btn hidden">
+              <button class="btn btn_small js_viewForm" type="button">View Form</button>
+            </div>
+          </div>
+        </div>
+      </section><a class="scrollUp" href="#">
+        <div class="scrollUp__item"></div></a>
+    </main>
+  </div>
+  <footer class="footer"> 
+    <div class="footer__top">
+      <div class="container container_center">
+        <div class="socialMedia">
+          <div class="socialMedia__item"><a class="icon icon_facebook" href="#"></a></div>
+          <div class="socialMedia__item"><a class="icon icon_twitter" href="#"></a></div>
+          <div class="socialMedia__item"><a class="icon icon_linkedin" href="#"></a></div>
+          <div class="socialMedia__item"><a class="icon icon_google" href="#"></a></div>
+          <div class="socialMedia__item"><a class="icon icon_tumblr" href="#"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container container_center">
+        <div class="copyright">Hope we see you at the event! </div>
+        <div class="copyright">All Rights Reserved. Envato Bangladesh © 2015</div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.inputmask.js"></script>
+<script src="js/timer.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;amp;apikey=c75c4eca-8dd3-4d9a-a79f-eb429eabb096"></script>
+<script src="js/ready.js"></script>
+<script src="js/function.js"></script>
